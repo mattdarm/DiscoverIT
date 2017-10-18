@@ -1,0 +1,28 @@
+/**** SERVICES ****/
+
+.services {
+   background-color: #000;
+   background-image: url('../images/services-bg.gif');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: right top;
+   @media #{$small-screen} {
+      background-size: contain;
+   }
+}
+
+.services__content {
+   position: relative;
+   background-color: #fff;
+   height: 100%;
+   width: 210px;
+   h3 {
+      padding-top: 44px;
+      padding-left: 18px;
+   }
+   p {
+      padding-top: 29px;
+      padding-left: 17px;
+      padding-right: 20px;
+   }
+}

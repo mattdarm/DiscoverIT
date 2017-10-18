@@ -1,0 +1,30 @@
+/**** ABOUT US ****/
+
+.about-us {
+   background-color: #000;
+   background-image: url('../images/about-us-bg.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.about-us__content {
+   position: relative;
+   background-color: #fff;
+   height: 100%;
+   width: 60%;
+   margin-left: 40%;
+   h3 {
+      padding-top: 46px;
+      padding-left: 37px;
+   }
+   p {
+      padding: 28px 30px 0 35px;
+   }
+   @media #{$laptop} {
+      width: 50%;
+      margin-left: 50%;
+      p {
+         padding-right: 35px;
+      }
+   }
+}

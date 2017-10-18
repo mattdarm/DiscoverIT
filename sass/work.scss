@@ -1,0 +1,25 @@
+/**** WORK ****/
+
+.work {
+   background-color: #000;
+   background-image: url('../images/work-bg.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: right 50%;
+   position: relative;
+}
+
+.work__content {
+   position: relative;
+   background-color: #fff;
+   height: 100%;
+   width: 70%;
+   clip-path: polygon(0 0, 63% 0, 86% 100%, 0 320px);
+   h3 {
+      padding-top: 46px;
+      padding-left: 37px;
+   }
+   p {
+      padding: 28px 33% 0 35px;
+   }
+}

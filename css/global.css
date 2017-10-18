@@ -1,0 +1,75 @@
+/*
+
+// Media Queries
+@tablet: ~'only screen and (min-width: 768px)';
+@desktop: ~'only screen and (min-width: 992px)';
+@large-desktop: ~'only screen and (min-width: 1400px)';
+
+//Typography
+
+p {
+	color: @paragraph-color;
+   font-family: @font-family-tertiary;
+	font-weight: 400;
+	line-height: @line-height-base;
+	word-spacing: 2px;
+}
+
+h1, h2, h3, h4, {
+   font-family: @font-family-primary;
+   font-weight: bold;
+   -webkit-font-smoothing: antialiased;
+   text-transform: uppercase;
+   color: @text-color;
+}
+
+h4 {
+	font-weight: 400;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+hr {
+	.block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid rgb(229, 229, 229);
+	margin: 1em 0;
+	padding: 0;
+}
+
+.heading-decor-text {
+   font-family: @font-family-secondary;
+   font-size: 24px;
+   font-weight: normal;
+   text-transform: none;
+}
+
+.gradient-red-yellow {
+   &:after {
+      content: '';
+      .absolute;
+      z-index: 0;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(@brand-red, @brand-yellow);
+   }
+}
+
+.separator {
+   width: 60px;
+   height: 3px;
+   .center-text;
+   display: inline-block;
+   margin-top: 40px;
+   background-color: @brand-red;
+}
+
+
+*/

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="description" content="'Discover IT' website created for assessment.">
+   <meta name="keywords" content="HTML,CSS,JavaScript, RWD">
+   <meta name="author" content="Matt Darmochwal">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Discover IT</title>
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="css/style.css">
+
+   <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/1df675ad44.js"></script>
+
+   <!-- jQuery -->
+   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+   <!-- JavaScript -->
+  <script src="js/custom.js"></script>
+</head>
+<body>
+
+   <!-- HEADER -->
+   <header class="header">
+      <a href="#">
+         <h1 class="header__logo">Discover IT</h1>
+      </a>
+      <!-- BURGER MENU ICON -->
+      <div class="header__burger-menu" id="burger-menu-trigger-menu">
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+      </div>
+      <!-- MAIN MENU -->
+      <nav class="header__menu">
+         <h2>Main navigation</h2>
+         <ul class="menubar">
+            <li class="menubar__item"><a href="#" class="menubar__item-link">what we do</a>
+               <ul class="submenu">
+                  <li class="submenu__item"><a href="#" class="submenu__item-link">e-commerce</a></li>
+                  <li class="submenu__item"><a href="#" class="submenu__item-link">content management</a></li>
+                  <li class="submenu__item"><a href="#" class="submenu__item-link">business solutions</a></li>
+                  <li class="submenu__item"><a href="#" class="submenu__item-link">digital marketing</a></li>
+               </ul>
+            </li>
+            <li class="menubar__item"><a href="#" class="menubar__item-link">work</a>
+               <ul class="submenu">
+                  <li class="submenu__item"><a href="#" class="submenu__item-link">kentico experts</a></li>
+                  <li class="submenu__item"><a href="#" class="submenu__item-link">responsive web design</a></li>
+                  <li class="submenu__item"><a href="#" class="submenu__item-link">SEO</a></li>
+                  <li class="submenu__item"><a href="#" class="submenu__item-link">online solutions</a></li>
+               </ul>
+            </li>
+            <li class="menubar__item"><a href="#" class="menubar__item-link">this is us</a>
+               <ul class="submenu">
+                  <li class="submenu__item"><a href="#" class="submenu__item-link">meet our team</a></li>
+                  <li class="submenu__item"><a href="#" class="submenu__item-link">join our team</a></li>
+                  <li class="submenu__item"><a href="#" class="submenu__item-link">partners</a></li>
+               </ul>
+            </li>
+            <li class="menubar__item"><a href="#" class="menubar__item-link">news&amp;blog</a></li>
+            <li class="menubar__item"><a href="#" class="menubar__item-link">contact</a></li>
+         </ul>
+      </nav>
+
+      <section class="header__hero-section">
+         <h2>complex applications,<br /> simple solutions.</h2>
+         <span>It's not about ideas. It's about making ideas happen</span>
+         <a href="#" class="btn header__btn">let's get started</a>
+      </section>
+   </header>
+
+   <!-- MAIN CONTENT -->
+   <main class="main-content">
+
+         <!-- ABOUT US -->
+         <article class="main-content__element about-us">
+            <header class="about-us__content">
+               <h3>about us</h3>
+               <p>Our mission is quite simple: to make the web a high value asset for your business and to provide seamless integration with your business systems and processes.</p>
+            </header>
+            <aside class="main-content__element--menu-overlay about-us__menu">
+               <ul>
+                  <li><a href="#">who we are</a></li>
+                  <li><a href="#">our mission</a></li>
+               </ul>
+               <div class="burger-menu--desktop" id="about-us__trigger-desktop">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+               <div class="burger-menu--mobile" id="about-us__trigger-mobile">
+                  <span></span>
+                  <span></span>
+               </div>
+            </aside>
+         </article>
+
+         <!-- SERVICES -->
+         <article class="main-content__element services">
+            <header class="services__content">
+               <h3>services</h3>
+               <p>We develop web applications for clients in any business sector.</p>
+            </header>
+            <aside class="main-content__element--menu-overlay services__menu">
+               <ul>
+                  <li><a href="#">e-commerce</a></li>
+                  <li><a href="#">content management</a></li>
+                  <li><a href="#">business solutions</a></li>
+                  <li><a href="#">digital marketing</a></li>
+               </ul>
+               <div class="burger-menu--desktop" id="services__trigger-desktop">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+               <div class="burger-menu--mobile" id="services__trigger-mobile">
+                  <span></span>
+                  <span></span>
+               </div>
+            </aside>
+         </article>
+
+         <!-- THE TEAM -->
+         <article class="main-content__element team">
+            <header class="team__content">
+               <h3>the team</h3>
+               <p>Eclectic, passionate, talented, humble...</p>
+            </header>
+            <aside class="main-content__element--menu-overlay team__menu">
+               <ul>
+                  <li><a href="#">meet our team</a></li>
+                  <li><a href="#">join our team</a></li>
+                  <li><a href="#">partners</a></li>
+               </ul>
+               <div class="burger-menu--desktop" id="team__trigger-desktop">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+               <div class="burger-menu--mobile" id="team__trigger-mobile">
+                  <span></span>
+                  <span></span>
+               </div>
+            </aside>
+         </article>
+
+         <!-- CONTACT US -->
+         <article class="main-content__element contact">
+            <header class="contact__content">
+               <h3>contact us</h3>
+               <p>Our mission is quite simple: to make the web a high value asset for your business and to provide seamless integration with your business systems and processes.</p>
+            </header>
+            <aside class="main-content__element--menu-overlay contact__menu">
+               <ul>
+                  <li><a href="mailto:info@discoverit.co.uk">info@discoverit.co.uk </a></li>
+                  <li><a href="tel://+441189744736">0118 974 4736</a></li>
+               </ul>
+               <div class="burger-menu--desktop" id="contact__trigger-desktop">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+               <div class="burger-menu--mobile" id="contact__trigger-mobile">
+                  <span></span>
+                  <span></span>
+               </div>
+            </aside>
+         </article>
+
+         <!-- WORK -->
+         <article class="main-content__element work">
+            <header class="work__content">
+               <h3>work</h3>
+               <p>Discover IT is a Berkshire-based Web application development company specialising in designing and implementing effetive Web-based business applications and E-Commerce solutions.</p>
+            </header>
+            <aside class="main-content__element--menu-overlay work__menu">
+               <ul>
+                  <li><a href="#">kentico experts</a></li>
+                  <li><a href="#">responsive web design</a></li>
+                  <li><a href="#">SEO</a></li>
+                  <li><a href="#">online solutions</a></li>
+               </ul>
+               <div class="burger-menu--desktop" id="work__trigger-desktop">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+               <div class="burger-menu--mobile" id="work__trigger-mobile">
+                  <span></span>
+                  <span></span>
+               </div>
+            </aside>
+         </article>
+
+         <!-- SUPPORT -->
+         <article class="main-content__element support">
+            <header class="support__content">
+               <h3>support</h3>
+               <p>Discover IT uses alert software ahich detects when a server may be malfunctioning.</p>
+            </header>
+            <aside class="main-content__element--menu-overlay support__menu">
+               <ul>
+                  <li><a href="#">kentico experts</a></li>
+                  <li><a href="#">responsive web design</a></li>
+                  <li><a href="#">SEO</a></li>
+                  <li><a href="#">online solutions</a></li>
+               </ul>
+               <div class="burger-menu--desktop" id="support__trigger-desktop">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+               <div class="burger-menu--mobile" id="support__trigger-mobile">
+                  <span></span>
+                  <span></span>
+               </div>
+            </aside>
+         </article>
+
+   </main>
+
+   <footer class="footer">
+      <section class="footer__address">
+         <a href="#">
+            <h4 class="footer__address-logo">Discover IT</h4>
+         </a>
+         <address class="footer__address-content">
+            Discover IT(UK) Limited,<br />
+            1st Floor Elmwood, Southend Road,<br />
+            Bradfield Southend,<br />
+            Reading,Berkshire,<br />
+            RG7 6EU
+            <ul class="social-media">
+               <li class="social-media__icon"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+               <li class="social-media__icon"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+               <li class="social-media__icon"><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+               <li class="social-media__icon"><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+         </address>
+      </section>
+      <section class="footer__form">
+         <h4>get in touch</h4>
+         <form action="form.php" method="get">
+            <input name="name" type="text" placeholder="Name" required>
+            <input name="email" type="email" placeholder="Email" required>
+            <textarea name="message" rows="8" cols="80" placeholder="Message" required></textarea>
+            <button type="submit" value="send">send</button>
+         </form>
+      </section>
+   </footer>
+
+</body>
+</html>

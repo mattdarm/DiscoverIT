@@ -1,0 +1,25 @@
+/**** CONTACT US ****/
+
+.contact {
+   background-color: #000;
+   background-image: url('../images/contact-us-bg.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: right 50%;
+   position: relative;
+}
+
+.contact__content {
+   position: relative;
+   background-color: #fff;
+   height: 100%;
+   width: 70%;
+   clip-path: polygon(72% 0, 88% 72%, 71% 100%, 0 100%, 0 0);
+   h3 {
+      padding-top: 46px;
+      padding-left: 37px;
+   }
+   p {
+      padding: 28px 33% 0 35px;
+   }
+}

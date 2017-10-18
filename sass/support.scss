@@ -1,0 +1,33 @@
+/**** SUPPORT ****/
+
+.support {
+   background-color: #000;
+   background-image: url('../images/support-bg.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: right 50%;
+   position: relative;
+   & .main-content__element--menu-overlay{
+      margin-top: -150px;
+   }
+}
+
+.support__content {
+   position: relative;
+   background-color: #fff;
+   height: 50%;
+   width: 100%;
+   h3 {
+      padding-top: 46px;
+      padding-left: 37px;
+   }
+   p {
+      padding: 0px 13% 270px 37px;
+      @media #{$laptop} {
+         padding: 0;
+         margin-top: -37px;
+         margin-left: 256px;
+         padding-right: 120px;
+      }
+   }
+}

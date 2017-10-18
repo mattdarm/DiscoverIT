@@ -1,0 +1,14 @@
+@mixin wrapper {
+   max-width: 1280px;
+   margin: 0 auto;
+}
+
+@mixin size($width, $height){
+   width: $width;
+   height: $height;
+}
+
+@mixin img-res{
+   width: 100%;
+   height: auto;
+}

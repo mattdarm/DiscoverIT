@@ -1,0 +1,54 @@
+/**** Brand Colours ****/
+
+// Headings
+$giants-orange: #FA6122;
+$imperial-blue: #1A4362;
+
+// Paragraphs
+$gothic: #627C85; // nie zgadza się z projektem
+
+// Variables
+$mine-shaft-light: #4D4D4D;
+$gallery: #EEEEEE;
+
+
+/**** Typography ****/
+
+// Google font for paragraphs
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+// Font for headers
+@font-face {
+   font-family: 'Nexa-Bold';
+   src: url('../fonts/nexa/Nexa-Bold.otf');
+   font-weight: bold;
+}
+@font-face {
+   font-family: 'Nexa-Light';
+   src: url('../fonts/nexa/Nexa-Light.otf');
+   font-weight: normal;
+}
+
+// Paragraphs
+$p-color: $gothic;
+$p-font-size: 16px;
+$p-font-family: 'Source Sans Pro';
+$p-line-height: 1.2;
+
+// Heading 2
+$h2-color: $imperial-blue;
+$h2-font-size: 77px;
+$h2-font-family: 'Nexa-Bold';
+$h2-line-height: 1.1;
+
+// Heading 3
+$h3-color: $giants-orange;
+$h3-font-size: 44px;
+$h3-font-family: 'Nexa-Bold';
+$h3-line-height: 1.4;
+
+// Heading 4
+$h4-color: $giants-orange;
+$h4-font-size: 26px;
+$h4-font-family: 'Nexa-Bold';
+$h4-line-height: 1.4;

@@ -12,3 +12,7 @@
    width: 100%;
    height: auto;
 }
+
+@mixin basic-transition {
+   transition: all .20s ease-in-out;
+}

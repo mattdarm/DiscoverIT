@@ -176,25 +176,37 @@
             z-index: -1;
          }
       }
-
    }
    span {
       display: block;
-      font-size: 1.25em;
+      font-size: 1em;
       font-family: 'Nexa-Light';
       color: lighten($mine-shaft-light, 20%);
       margin-top: 10px;
+      @media #{$tablet} {
+         font-size: 1.25em;
+      }
    }
    a {
       display: inline-block;
-      margin-top: 40px;
-      margin-bottom: 190px;
+      margin-top: 60px;
       border-radius: 2px;
+      padding: 15px 22.5px;
+      font-size: 14px;
+      
       &:hover {
          color: #FFF;
          background-color: $giants-orange;
          border: 2px solid $giants-orange;
          box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+      }
+      @media #{$tablet} {
+         padding: 20px 30px;
+         font-size: 16px;
+      }
+      @media #{$small-screen} {
+         margin-top: 40px;
+         margin-bottom: 190px;
       }
    }
 }

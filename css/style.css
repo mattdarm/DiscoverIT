@@ -569,21 +569,33 @@ h4 {
           z-index: -1; } }
   .header__hero-section span {
     display: block;
-    font-size: 1.25em;
+    font-size: 1em;
     font-family: 'Nexa-Light';
     color: gray;
     margin-top: 10px; }
+    @media only screen and (min-width: 768px) {
+      .header__hero-section span {
+        font-size: 1.25em; } }
   .header__hero-section a {
     display: inline-block;
-    margin-top: 40px;
-    margin-bottom: 190px;
-    border-radius: 2px; }
+    margin-top: 60px;
+    border-radius: 2px;
+    padding: 15px 22.5px;
+    font-size: 14px; }
     .header__hero-section a:hover {
       color: #FFF;
       background-color: #FA6122;
       border: 2px solid #FA6122;
       -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
       box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6); }
+    @media only screen and (min-width: 768px) {
+      .header__hero-section a {
+        padding: 20px 30px;
+        font-size: 16px; } }
+    @media only screen and (min-width: 992px) {
+      .header__hero-section a {
+        margin-top: 40px;
+        margin-bottom: 190px; } }
 
 /**** ABOUT US ****/
 .about-us {

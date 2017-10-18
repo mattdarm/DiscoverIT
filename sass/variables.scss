@@ -14,8 +14,12 @@ $gallery: #EEEEEE;
 
 /**** Typography ****/
 
-// Google font for paragraphs
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+// Font for paragraphs
+@font-face {
+   font-family: 'Source Sans Pro';
+   src: url('../fonts/source-sans-pro/SourceSansPro-Regular.ttf');
+   font-weight: bold;
+}
 
 // Font for headers
 @font-face {

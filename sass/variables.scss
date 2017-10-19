@@ -16,9 +16,9 @@ $gallery: #EEEEEE;
 
 // Font for paragraphs
 @font-face {
-   font-family: 'Source Sans Pro';
+   font-family: 'Source-Sans-Pro';
    src: url('../fonts/source-sans-pro/SourceSansPro-Regular.ttf');
-   font-weight: bold;
+   font-weight: normal;
 }
 
 // Font for headers
@@ -36,7 +36,7 @@ $gallery: #EEEEEE;
 // Paragraphs
 $p-color: $gothic;
 $p-font-size: 16px;
-$p-font-family: 'Source Sans Pro';
+$p-font-family: 'Source-Sans-Pro';
 $p-line-height: 1.2;
 
 // Heading 2
